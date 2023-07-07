@@ -1,0 +1,20 @@
+ <div>
+    <li *ngFor="let noticias of datanoticias">
+        <app-card-noticias [noticias]="noticias"></app-card-noticias>
+    </li>
+</div>
+<div>
+    <li *ngFor="let productos of dataproductos">
+        <app-card-productos [productos]="productos"></app-card-productos>
+    </li>
+</div>      
+<div>
+    <li *ngFor="let cursos of datacursos">
+        <app-card-cursos [cursos]="cursos"></app-card-cursos>
+    </li>
+</div> 
+<div>
+    <li *ngFor="let componentes of datacomponentes">
+        <app-card-componentes [componentes]="componentes"></app-card-componentes>
+    </li>
+</div>

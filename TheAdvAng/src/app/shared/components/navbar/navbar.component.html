@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="navbar-container container">
+    <input type="checkbox" name="" id="">
+    <div class="hamburger-lines">
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+    </div>
+    <ul class="menu-items">
+      <li [routerLink]="item.router" *ngFor="let item of mainMenu.opcDefecto">
+        <span>{{item.name}}</span>
+      </li>
+    </ul>
+    <img class="image-background" src="../../../../assets/image/WhatsApp-Image-2023-06-25-at-5.00.00-PM-removebg-preview.png" alt="">
+    
+  </div>
+</nav>
